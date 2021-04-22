@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './images/Coffee.jpg';
 import './App.css';
 import axios from 'axios'
 const API_URL = 'http://localhost:8080'
@@ -17,7 +17,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />  
+      </header>
+    </div>
+  );
+}
+
+export default App;
+{/* <img src={logo} className="App-logo" alt="logo" />
         <button onClick={checker}>
           <p>
             Click me!
@@ -33,10 +40,4 @@ function App() {
           rel="noopener noreferrer"
         >
           Hi Jonny
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+        </a> */}
